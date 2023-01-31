@@ -9,4 +9,10 @@ amazon-linux-extras install java-openjdk11
 yum install jenkins
 systemctl start jenkins
 
-Note:-If not work, restart the server.
+Note1:-If not work, restart the server(Now jenkins will be up and running).
+But when you try to access through browser, it will not open. Because by default jenkins run on port 8080 so first we need to open the port 8080 on jenkins server.
+
+
+
+Note2:-How to open port 8080 on jenkins server?
+at Inbound securityGroup rules add TCP port 8080 for the ip you want to open.(eg. custom[Custom TCP 8080 MyIP...])
