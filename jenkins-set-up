@@ -12,7 +12,8 @@ systemctl start jenkins
 Note1:-If not work, restart the server(Now jenkins will be up and running).
 But when you try to access through browser, it will not open. Because by default jenkins run on port 8080 so first we need to open the port 8080 on jenkins server.
 
-
-
 Note2:-How to open port 8080 on jenkins server?
 at Inbound securityGroup rules add TCP port 8080 for the ip you want to open.(eg. custom[Custom TCP 8080 MyIP...])
+
+Note3:-How to Unlock jenkins?
+cat /var/lib/jenkins/secrets/initialAdminPassword(you will get the token on your screen, enter it and install all the plugins).
