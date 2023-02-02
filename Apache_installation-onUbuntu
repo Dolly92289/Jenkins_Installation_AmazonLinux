@@ -1,0 +1,11 @@
+Install Apache Webserver
+SSH to your Ubuntu server as a non-root user, then update the package information index and upgrade your packages.
+
+$ sudo apt update && sudo apt -y upgrade
+Next, run the command below to install the Apache Web server.
+
+$ sudo apt install -y apache2
+Visit the URL below on a web browser and replace the 192.0.2.1 with the public IP address of your server or domain name.
+
+Link:-
+https://www.vultr.com/docs/install-linux-apache-mysql-and-php-lamp-on-ubuntu-20-04-lts/?utm_source=performance-max-apac&utm_medium=paidmedia&obility_id=16876059738&utm_adgroup=&utm_campaign=&utm_term=&utm_content=&gclid=Cj0KCQiA2-2eBhClARIsAGLQ2RlCwZAGSj6DhVrmzREnlUmqrLfGWJry8x8Frj43hsUDDuujtqnZHS0aAghdEALw_wcB
