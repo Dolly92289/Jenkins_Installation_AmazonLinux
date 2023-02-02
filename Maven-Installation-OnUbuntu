@@ -1,1 +1,23 @@
+Install Maven on Ubuntu with apt
+
+The apt command provides a simple and straightforward way of installing Maven on Ubuntu. Follow these steps to complete the installation:
+
+1. Update the system repository using:
+
+sudo apt update
+
+2. Install Maven from the official repository:
+
+sudo apt install maven
+
+3. When prompted, type Y and press Enter to confirm the installation.
+
+Confirm the Maven installation when prompted
+3. Check the current version of Maven to verify the installation:
+
+mvn -version
+
+link:- 
 https://phoenixnap.com/kb/install-maven-on-ubuntu
+
+
